@@ -10,3 +10,7 @@ List of tutorials
 * 5) Adding another compound component Toolbar (extends JPanel)
 * 6) Intro into communication between different components (Toolbar and TextPanel)
 * 7) Proper way to handle communication between components - passing interfaces
+*  8) Component dimensions set and getPreferredSize();
+* 9) Component borders with BorderFactory
+* 10) Creating FormFields and Labels
+* 11) Placing components on form with GridBagLayout and GridBagConstraints
