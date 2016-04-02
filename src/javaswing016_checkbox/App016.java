@@ -1,8 +1,8 @@
-package javaswing015_combobox;
+package javaswing016_checkbox;
 
 import javax.swing.SwingUtilities;
 
-public class App013
+public class App016
 {
 
 	public static void main(String[] args)

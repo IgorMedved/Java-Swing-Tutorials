@@ -1,4 +1,4 @@
-package javaswing015_combobox;
+package javaswing016_checkbox;
 
 import java.util.EventObject;
 
