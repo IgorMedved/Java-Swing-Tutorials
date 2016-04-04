@@ -17,3 +17,5 @@ List of tutorials
 * 12) EventListeners and EventObjects
 * 13) ListBox
 * 14) Properly adding data to ListBox
+* 15) ComboBox tutorial
+* 16) JCheckBox
