@@ -46,8 +46,10 @@ public class MainFrame extends JFrame
         int ageCategoryIndex = e.getAgeCategory();
         String empCat = e.getEmploymentCategory();
         String taxId = e.getTaxId();
+        String gender = e.getGender();
         
-        mTextPanel.appendText(name + ": " + occupation + ": " + ageCategoryIndex + ": " + empCat + ": " + taxId+ "\n");
+        
+        mTextPanel.appendText(name + ": " + occupation + ": " + ageCategoryIndex + ": " + empCat + ": " + taxId+ ": " + gender + "\n");
       }
     });
                                

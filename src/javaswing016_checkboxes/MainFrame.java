@@ -1,4 +1,4 @@
-package javaswing017_radiobuttons;
+package javaswing016_checkboxes;
 
 import java.awt.BorderLayout;
 
@@ -46,10 +46,8 @@ public class MainFrame extends JFrame
         int ageCategoryIndex = e.getAgeCategory();
         String empCat = e.getEmploymentCategory();
         String taxId = e.getTaxId();
-        String gender = e.getGender();
         
-        
-        mTextPanel.appendText(name + ": " + occupation + ": " + ageCategoryIndex + ": " + empCat + ": " + taxId+ ": " + gender + "\n");
+        mTextPanel.appendText(name + ": " + occupation + ": " + ageCategoryIndex + ": " + empCat + ": " + taxId+ "\n");
       }
     });
                                
