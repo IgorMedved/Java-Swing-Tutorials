@@ -1,4 +1,4 @@
-package javaswing016_checkbox;
+package javaswing017_radiobuttons;
 
 import java.util.EventObject;
 
@@ -9,15 +9,13 @@ public class FormEvent extends EventObject {
 	private String mEmploymentCategory;
 	private String mTaxId;
 	private boolean mUSCitizen;
-	private String mGender;
 
 	public FormEvent(Object source) {
 		super(source);
 	}
 
 	public FormEvent(Object source, String name, String occupation, 
-			int ageCat, String empCategory, String taxId, boolean usCitizen,
-			String gender) {
+			int ageCat, String empCategory, String taxId, boolean usCitizen) {
 		super(source);
 		mName = name;
 		mOccupation = occupation;
@@ -25,11 +23,6 @@ public class FormEvent extends EventObject {
 		mEmploymentCategory = empCategory;
 		mTaxId = taxId;
 		mUSCitizen = usCitizen;
-		mGender = gender;
-	}
-
-	public String getGender() {
-		return mGender;
 	}
 
 	public String getEmploymentCategory() {
