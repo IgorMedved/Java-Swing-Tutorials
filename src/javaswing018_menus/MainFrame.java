@@ -3,6 +3,9 @@ package javaswing018_menus;
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 
 public class MainFrame extends JFrame
 {
@@ -22,6 +25,8 @@ public class MainFrame extends JFrame
     
     mToolbar = new Toolbar();
     mFormPanel = new FormPanel();
+    
+    setJMenuBar(createMenuBar());
     
     // pass a callback to mToolbar which would be called when buttons are pressed
     mToolbar.setStringListener(new StringListener(){
@@ -67,6 +72,37 @@ public class MainFrame extends JFrame
     setSize(600,400);
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     setVisible(true);
+  }
+  
+  private JMenuBar createMenuBar()
+  {
+	  JMenuBar menuBar = new JMenuBar();
+	  
+	  JMenu fileMenu = new JMenu("File");
+	  
+	  
+	  JMenuItem exportDataItem = new JMenuItem("Export Data...");
+	  JMenuItem importDataItem = new JMenuItem("Import Data...");
+	  JMenuItem exitItem = new JMenuItem("Exit");
+	  
+	  fileMenu.add(exportDataItem);
+	  fileMenu.add(importDataItem);
+	  fileMenu.addSeparator();
+	  fileMenu.add(exitItem);
+	  
+	  JMenu windowMenu = new JMenu("Window");
+	  
+	  JMenu showMenu = new JMenu("Show");
+	  JMenuItem showFormItem = new JMenuItem("Person Form");
+	  showMenu.add(showFormItem);
+	  windowMenu.add(showMenu);
+	  
+	  menuBar.add(fileMenu);
+	  menuBar.add(windowMenu);
+	  //menuBar.add(showMenu);
+	  
+	  return menuBar;
+	  
   }
  
  
