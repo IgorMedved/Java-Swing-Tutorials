@@ -1,8 +1,8 @@
-package javaswing016_checkbox;
+package javaswing019_checkboxes_in_menus;
 
 import javax.swing.SwingUtilities;
 
-public class App016
+public class App019
 {
 
 	public static void main(String[] args)

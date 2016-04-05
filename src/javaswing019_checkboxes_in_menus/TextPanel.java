@@ -1,4 +1,4 @@
-package javaswing016_checkbox;
+package javaswing019_checkboxes_in_menus;
 
 import java.awt.BorderLayout;
 
