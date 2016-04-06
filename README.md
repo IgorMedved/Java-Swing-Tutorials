@@ -20,3 +20,6 @@ List of tutorials
 * 15) ComboBox tutorial
 * 16) JCheckBox
 * 17) JRadioButton, ButtonGroup
+* 18) JMenuBar, JMenu, and JMenuItem
+* 19) Checkboxes in Menus
+* 20) Accelerators and mnemonics
