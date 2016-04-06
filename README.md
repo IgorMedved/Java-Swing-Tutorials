@@ -23,3 +23,8 @@ List of tutorials
 * 18) JMenuBar, JMenu, and JMenuItem
 * 19) Checkboxes in Menus
 * 20) Accelerators and mnemonics
+* 21) Message boxes - JOptionPane.confirmDialog(...), JOptionPane.inputDialog(...)
+* 22) JFileChooser
+* 23) FileFilter
+* 24) MVC Model
+* 25) MVC Controller
