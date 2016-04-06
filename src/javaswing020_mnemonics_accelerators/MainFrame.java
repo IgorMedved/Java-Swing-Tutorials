@@ -1,4 +1,4 @@
-package javaswing019_checkboxes_in_menus;
+package javaswing020_mnemonics_accelerators;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -10,6 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+import javax.swing.KeyStroke;
 
 public class MainFrame extends JFrame
 {
@@ -121,6 +122,10 @@ public class MainFrame extends JFrame
 	  
 	  fileMenu.setMnemonic(KeyEvent.VK_F);
 	  exitItem.setMnemonic(KeyEvent.VK_X);
+	  windowMenu.setMnemonic(KeyEvent.VK_W);
+	  
+	  exitItem.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_X, ActionEvent.CTRL_MASK));
+	  
 	  
 	  exitItem.addActionListener(new ActionListener(){
 
